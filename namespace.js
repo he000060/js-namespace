@@ -1,6 +1,3 @@
-// HE000060 MAD9014 
-//Namespace assignment
-
 var HE000060 = {
 pickColor:function(){
 var letters = '0123456789ABCDEF'.split('');
@@ -10,7 +7,6 @@ color += letters[Math.round(Math.random() * 15)];
 }
 return color;
 },
-// This Loop I learnt from other's code //
 
 init: function(){
 
