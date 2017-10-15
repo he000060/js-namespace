@@ -1,7 +1,7 @@
-// he000060 MAD9014 
+// HE000060 MAD9014 
 //Namespace assignment
 
-var he000060 = {
+var HE000060 = {
 pickColor:function(){
 var letters = '0123456789ABCDEF'.split('');
 var color='#';
@@ -17,14 +17,14 @@ init: function(){
 var newDiv = 
 document.createElement("div");
 newDiv.className = "box";
-newDiv.textContent = "he000060";
+newDiv.textContent = "HE000060";
 
 var boxes = document.getElementById("boxes");
 boxes.appendChild(newDiv);
 
 newDiv.addEventListener("click",function press(){
-newDiv.style.borderColor = he000060.pickColor();
-newDiv.style.backgroundColor = he000060.pickColor(); 
+newDiv.style.borderColor = HE000060.pickColor();
+newDiv.style.backgroundColor = HE000060.pickColor(); 
 });
 newDiv.addEventListener("mouseover", function highlight(){
 newDiv.classList.add("highlight");
